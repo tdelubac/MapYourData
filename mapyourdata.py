@@ -1,7 +1,7 @@
 import pandas as pd
 import folium
 
-# Loading the geojson file with the shape of the french departments 
+# specifying the path to the geojson data 
 departments = 'data/departements.geojson'
 
 # Loading the data with the number of counts per departments
