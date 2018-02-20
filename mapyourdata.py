@@ -22,7 +22,6 @@ m.choropleth(
     line_opacity = 0.2,
     legend_name  = 'Number of answers per department' 
 )
-folium.LayerControl().add_to(m)
 
 # Save to html and open it in your favorite browser
 m.save('departments.html')
