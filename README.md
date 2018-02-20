@@ -1,6 +1,6 @@
 # Map Your Data
 
-Plot your data on a geographic map. This is a python code showing how to plot data on a geographic map using the folium package. In this example code, we plot a number of counts per French departments. The shape of the departments are provided as a [geojson file](http://geojson.org/). The counts are provided in a separate file. You can modify those two data files to plot your own data on your own maps.  
+Plot your data on a geographic map. This is a python code showing how to plot data on a geographic map using the folium package. In this example code, we plot a number of counts per French departments. The shape of the departments are provided as a [geojson file](http://geojson.org/). The geojson file used for this code was obtained from [Grégoire David's repository](https://github.com/gregoiredavid/france-geojson). The counts are provided in a separate file. You can modify those two data files to plot your own data on your own maps.  
 
 ## Runing the code
 You can install the required libraries by typing the following in your terminal:
