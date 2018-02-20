@@ -5,7 +5,6 @@ import folium
 # We load the department column as string because it is a str
 # in the geojson file. 
 df_counts = pd.read_csv('data/counts_per_department.csv', dtype={'department':object})
-# df_counts['department'] = df_counts['department'].astype(str)
 
 # Creating the initial map
 m = folium.Map(location=[46.5,2], zoom_start=5.49)
