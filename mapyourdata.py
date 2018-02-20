@@ -1,9 +1,6 @@
 import pandas as pd
 import folium
 
-# specifying the path to the geojson data 
-departments = 'data/departements.geojson'
-
 # Loading the data with the number of counts per departments
 # We load the department column as string because it is a str
 # in the geojson file. 
@@ -16,7 +13,7 @@ m = folium.Map(location=[46.5,2], zoom_start=5.49)
 # Creating the choropleth to add the coloured departments
 # on top of the map
 m.choropleth(
-    geo_data     = departments,
+    geo_data     = 'data/departements.geojson',
     name         = 'French departments',
     data         = df_counts,
     columns      = ['department','counts'],
